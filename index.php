@@ -1,6 +1,6 @@
 <?php 
-
-$ss = shell_exec('/deploy.sh');
+echo "ss";
+$ss = shell_exec('deploy.sh');
 
 echo $ss;
 
