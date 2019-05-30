@@ -1,5 +1,5 @@
 <?php 
-$file = 'deploy.sh';
+$file = '/app/deploy.sh';
 $fp = fopen($file, 'w');
     fwrite($fp, $content);
     fclose($fp);
