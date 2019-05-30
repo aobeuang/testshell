@@ -1,3 +1,3 @@
 #!/bin/bash
 
-heroku run composer about
+heroku run php composer about
