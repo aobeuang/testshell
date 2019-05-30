@@ -1,3 +1,3 @@
 #!/bin/bash
 
-composer about
+rm -rf /app/test.sh
