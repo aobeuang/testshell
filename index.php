@@ -5,7 +5,7 @@ $fp = fopen($file, 'w');
     fclose($fp);
     chmod($file, 0777);  //changed to add the zero
 echo "ssss";
-$ss = shell_exec('deploy.sh');
+$ss = shell_exec('/app/deploy.sh');
 
 echo $ss;
 
