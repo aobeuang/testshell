@@ -4,7 +4,7 @@ $fp = fopen($file, 'w');
     fwrite($fp, $content);
     fclose($fp);
     chmod($file, 0777);  //changed to add the zero
-echo "99ss99";
+echo "ssss";
 $ss = shell_exec('deploy.sh');
 
 echo $ss;
