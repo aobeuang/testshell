@@ -1,3 +1,3 @@
 #!/bin/bash
 
-composer about
+heroku run composer about
